@@ -66,7 +66,12 @@ input[type="text"] {
   background-color: rgba(255, 255, 255, 0.001);
 }
 
-input[type="button"] {
+input[placeholder] {
+  text-align: center;
+}
+
+
+button {
   width: 30%;
   border: none;
   background-color: #01333a;
@@ -74,8 +79,9 @@ input[type="button"] {
   color: white;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.542);
   height: 40px;
+  
 }
-input[type="button"]:hover {
+.cont_search:hover {
   cursor: pointer;
   background-color: #04555e;
 }
